@@ -16,7 +16,7 @@ export interface PortfolioImage {
 
 export const Album: PortfolioImage[] = [
   {
-    title: "My trip in the mountains",
+    title: "My trip to the mountains",
     description:
       "I recently enjoyed a vacation in the French Alps, surrounded by breathtaking scenery. I traveled with a small group of close friends, eager to experience the mix of outdoor adventure and relaxation. \
 We stayed in a charming chalet near Chamonix, waking up to stunning views of Mont Blanc every day. Our mornings were filled with hikes through lush valleys, where we discovered hidden waterfalls and peaceful alpine lakes. One day, we even took the cable car up to Aiguille du Midi for panoramic views of the snow-covered peaks.\
