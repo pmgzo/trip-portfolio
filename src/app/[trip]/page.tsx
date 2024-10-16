@@ -47,7 +47,7 @@ export default function Page() {
     </div>
   ) : (
     <div>
-      <div className="absolute w-full">
+      <div className="absolute w-full z-10">
         <div className="flex justify-center">
           <h1 className="text-xl">{picture.title}</h1>
         </div>

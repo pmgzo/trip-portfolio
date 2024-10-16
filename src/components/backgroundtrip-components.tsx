@@ -25,7 +25,7 @@ export default function BackgroundTrip({ tripId }: BackgroundTripProps) {
       <div className="bg-[url('../app/images/portfolio/chalo-garcia-FFWD8Ryle_U-unsplash.jpg')] bg-center blur-lg min-h-screen" />
     );
   }
-  if (tripId === "swimmingpool") {
+  if (tripId === "swimingpool") {
     return (
       <div className="bg-[url('../app/images/portfolio/victor-Kz6D657YAbc-unsplash.jpg')] bg-center blur-lg min-h-screen" />
     );
