@@ -29,15 +29,15 @@ export default function Page() {
   return isVertical ? (
     <div>
       <div className="absolute w-full z-10">
-        <div className="flex flex-start">
-          <div className="max-w-[800px] h-full">
+        <div className="flex flex-wrap">
+          <div className="lg:max-w-[800px]">
             <div className="flex justify-center">
               <h1 className="text-xl">{picture.title}</h1>
             </div>
             <Image src={picture.image} alt={picture.alt} />
           </div>
-          <div className="ml-10">
-            <div className="rounded-lg bg-[#FFFFFF] shadow-md max-w-[500px] fixed top-[10px]">
+          <div className="lg:ml-10 mt-10">
+            <div className="lg:fixed rounded-lg bg-[#FFFFFF] shadow-md lg:max-w-[500px]">
               <p className="p-5">{picture?.description}</p>
             </div>
           </div>
